@@ -1,6 +1,8 @@
 # Directories
-.vscode/
-cogs/__pycache__
+node_modules/
 
 # Files
-.env
+yarn.lock
+config.json
+package-lock.json
+pnpm-workspace.yaml

@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "shadow",
+  "version": "1.0.0",
+  "description": "Bot for the Mue Discord server",
+  "author": "The Mue Authors",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mue/discord-bot"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "pretty": "prettier --write ."
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.9",
+    "zlib-sync": "^0.1.9"
+  },
+  "devDependencies": {
+    "eslint": "8",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.4.2"
+  }
+}
